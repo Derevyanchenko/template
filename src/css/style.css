@@ -361,3 +361,51 @@ h6 {
   font-size: 14px;
   line-height: 24px;
 }
+
+.meet {
+  padding-top: 65px;
+  padding-bottom: 120px;
+  background: #ffcf3c;
+}
+
+.meet__title {
+  color: #000;
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.meet__text {
+  text-align: center;
+  color: #000000;
+  font-size: 18px;
+  line-height: 34px;
+  margin-bottom: 70px;
+}
+
+.meet__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.meet__block {
+  max-width: 370px;
+  width: 100%;
+  margin-right: 20px;
+  height: 500px;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.meet__block:nth-child(3n+3) {
+  margin-right: 0;
+}
+
+.meet__block-img {
+  height: 210px;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  background: #000;
+}
