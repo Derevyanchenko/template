@@ -1,0 +1,52 @@
+// services
+
+.services {
+	padding-top: 95px;
+	padding-bottom: 77px;
+	&__title {
+		margin-bottom: 44px;
+		text-align: center;
+		color: #000;
+	}
+	&__text {
+		margin: auto;
+		margin-bottom: 82px;
+		max-width: 505px;
+		text-align: center;
+	}
+	&__wrapper {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	&__block {
+		flex: 0 0 33%;
+		max-width: 33%;
+		display: flex;
+		margin-bottom: 55px;
+		&-img {
+			width: 60px;
+			height: 60px;
+			margin-right: 30px;
+			text-align: right;
+			img {
+				max-width: 100%;
+				height: auto;
+			}
+		}
+		&-content {
+
+		}
+		&-title {
+			font-size: 24px;
+			line-height: 46px;
+			color: #000;
+			letter-spacing: -0.6px;
+			margin-bottom: 15px;
+		}
+		&-text {
+			color: #aaaaaa;
+			font-size: 14px;
+			line-height: 24px;
+		}
+	}
+}
