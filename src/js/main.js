@@ -14,14 +14,17 @@ $(document).ready(function() {
 */
     // arrow top animation end
 
-  $('.selectTree__slider').slick({
+  $('.banner__slider').slick({
       dots: false,
       arrows: true,
       infinite: true,
       slidesToShow: 1,
       slidesToScroll: 1,
-      prevArrow: '<button class="selectTree__slider-arrow selectTree__slider-prev"><img src="img/prev-arrow.png" alt=""></button>',
-      nextArrow: '<button class="selectTree__slider-arrow selectTree__slider-next"><img src="img/next-arrow.png" alt=""></button>',
+      speed: 300,
+      fade: true,
+      cssEase: 'linear',
+      prevArrow: $(".banner-prev"),
+      nextArrow: $(".banner-next"),
       responsive: [
         {
           breakpoint: 2500,
@@ -31,44 +34,6 @@ $(document).ready(function() {
             infinite: true,
             arrows: true,
             dots: false
-          }
-        },
-        {
-          breakpoint: 1199,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            infinite: true,
-            autoplay: false,
-            dots: false
-          }
-        },
-         {
-          breakpoint: 991,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            arrows: true,
-            autoplay: false,
-            dots: false
-          }
-        },
-        {
-          breakpoint: 767,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            arrows: true,
-            autoplay: false,
-            dots: false
-          }
-        },
-        {
-          breakpoint: 575,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            arrows: true
           }
         }
         // You can unslick at a given breakpoint now by adding:
