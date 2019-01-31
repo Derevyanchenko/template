@@ -1,1 +1,71 @@
 // header
+
+.header {
+	background: #000;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+	color: #fff;
+	&-top {
+		padding: 20px 0;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+}
+
+.logo {
+	display: flex;
+	font-size: 30px;
+	font-weight: 600;
+	letter-spacing: -0.51px;
+	color: #fff;
+	transition: all 0.2s;
+	img {
+		margin-right: 10px;
+		display: block;
+	}
+	&:hover {
+		transition: all 0.2s;
+		opacity: 0.7;
+	}
+}
+
+.main {
+	&__menu {
+
+	}
+	&__list {
+		display: flex;
+		align-items: center;
+
+	}
+	&__item {
+		margin-right: 40px;
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+	&__link {
+		color: #fff;
+		font-size: 18px;
+		font-weight: 500;
+		transition: all 0.2s;
+		&:hover {
+			color: $yellow;
+			transition: all 0.2s;
+		}
+	}
+}
+
+.get-call {
+	padding: 10px 37px;
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #fff;
+	border: 2px solid $yellow;
+	border-radius: 20px;
+	transition: all 0.2s;
+	&:hover {
+		background: $yellow;
+		transition: all 0.2s;
+	}
+}
