@@ -35,6 +35,13 @@ $(document).ready(function() {
             arrows: true,
             dots: false
           }
+        },
+        {
+          breakpoint: 991,
+          settings: {
+            arrows: false,
+            dots: true
+          }
         }
         // You can unslick at a given breakpoint now by adding:
         // settings: "unslick"

@@ -69,3 +69,21 @@
 		transition: all 0.2s;
 	}
 }
+
+
+// media queries
+
+ @media (max-width: $lg) {
+
+.main__list {
+	display: none;
+}
+
+}
+
+
+@media (max-width: $sm) {
+
+	
+
+}
