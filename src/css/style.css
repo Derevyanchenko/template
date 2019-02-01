@@ -560,4 +560,44 @@ h6 {
 
 .contact__text {
   text-align: center;
+  color: #fff;
+}
+
+.contact__form .form-field {
+  margin-top: 65px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.contact__form-input {
+  background-color: #ffffff;
+  height: 60px;
+  max-width: 552px;
+  width: 100%;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border: none;
+}
+
+.contact__form-submit {
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: 220px;
+  height: 60px;
+  background-color: #ffc000;
+  color: #fff;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: -0.9px;
 }

@@ -15,14 +15,36 @@
   }
   &__text {
     text-align: center;
+    color: #fff;
   }
   &__form {
-
+    .form-field {
+      margin-top: 65px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
     &-input {
-
+      background-color: #ffffff;
+      height: 60px;
+      max-width: 552px;
+      width: 100%;
+      flex-shrink: 0;
+      border-top-left-radius: 30px;
+      border-bottom-left-radius: 30px;
+      border: none;
     }
     &-submit {
-
+      flex-shrink: 0;
+      width: 220px;
+      height: 60px;
+      background-color: $yellow;
+      color: #fff;
+      border-top-right-radius: 30px;
+      border-bottom-right-radius: 30px;
+      font-size: 18px;
+      text-transform: uppercase;
+      letter-spacing: -0.9px;
     }
   }
 
