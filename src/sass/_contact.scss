@@ -25,6 +25,7 @@
       justify-content: center;
     }
     &-input {
+      padding: 19px 40px;
       background-color: #ffffff;
       height: 60px;
       max-width: 552px;
@@ -33,18 +34,24 @@
       border-top-left-radius: 30px;
       border-bottom-left-radius: 30px;
       border: none;
+      color: #aaaaaa;
+      font-size: 18px;
     }
     &-submit {
       flex-shrink: 0;
-      width: 220px;
-      height: 60px;
+      padding: 21px 82px;
       background-color: $yellow;
       color: #fff;
       border-top-right-radius: 30px;
       border-bottom-right-radius: 30px;
       font-size: 18px;
       text-transform: uppercase;
-      letter-spacing: -0.9px;
+      letter-spacing: -1px;
+      transition: all 0.2s;
+      &:hover {
+        transition: all 0.2s;
+        background: #efc137;
+      }
     }
   }
 

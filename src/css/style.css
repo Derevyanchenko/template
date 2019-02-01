@@ -44,6 +44,10 @@ button {
   font-family: 'Poppins', sans-serif;
 }
 
+input:focus {
+  outline: none;
+}
+
 body {
   color: #666666;
   font-size: 14px;
@@ -577,6 +581,7 @@ h6 {
 }
 
 .contact__form-input {
+  padding: 19px 40px;
   background-color: #ffffff;
   height: 60px;
   max-width: 552px;
@@ -586,18 +591,27 @@ h6 {
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
   border: none;
+  color: #aaaaaa;
+  font-size: 18px;
 }
 
 .contact__form-submit {
   -ms-flex-negative: 0;
   flex-shrink: 0;
-  width: 220px;
-  height: 60px;
+  padding: 21px 82px;
   background-color: #ffc000;
   color: #fff;
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
   font-size: 18px;
   text-transform: uppercase;
-  letter-spacing: -0.9px;
+  letter-spacing: -1px;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.contact__form-submit:hover {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  background: #efc137;
 }
