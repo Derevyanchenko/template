@@ -1,14 +1,14 @@
 // contact
 
 .contact {
-  padding-top: 100px;
-  padding-bottom: 120px;
+  padding-top: 95px;
+  padding-bottom: 122px;
   background-color: #020202;
   &__title {
     text-align: center;
     color: #fff;
     letter-spacing: 0;
-    margin-bottom: 30px;
+    margin-bottom: 28px;
     span {
       color: $yellow;
     }
@@ -19,7 +19,7 @@
   }
   &__form {
     .form-field {
-      margin-top: 65px;
+      margin-top: 58px;
       display: flex;
       align-items: center;
       justify-content: center;
