@@ -81,3 +81,12 @@
 	}
 
 }
+
+@media (max-width: $lg) {
+
+	.banner {
+		padding-top: 150px;
+		min-height: 700px;
+	}
+
+}

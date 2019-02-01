@@ -303,6 +303,13 @@ h6 {
   }
 }
 
+@media (max-width: 991px) {
+  .banner {
+    padding-top: 150px;
+    min-height: 700px;
+  }
+}
+
 .about {
   padding-top: 103px;
   padding-bottom: 120px;
