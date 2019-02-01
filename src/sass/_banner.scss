@@ -18,14 +18,15 @@
 	&__subTitle {
 		color: #fff;
 		letter-spacing: -1.03px;
-		margin-bottom: 28px;
+		margin-bottom: 0;
 	}
 	&__title {
 		font-size: 170px;
 		font-weight: 400;
 		text-transform: uppercase;
+		font-family: 'Flow';
 		color: $yellow;
-		letter-spacing: -4.36px;
+		letter-spacing: 0;
 		margin-bottom: 40px;
 	}
 	&__text {

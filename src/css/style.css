@@ -1,5 +1,23 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:100,400,500,600,700,900");
+@charset "UTF-8";
+
 /*style*/
+
+@font-face {
+  font-family: 'Flow';
+  src: url("../fonts/Flow.eot");
+  src: local("☺"), url("../fonts/Flow.woff") format("woff"), url("../fonts/Flow.ttf") format("truetype"), url("../fonts/Flow.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MyriadPro-Regular';
+  src: url("../fonts/MyriadPro-Regular.eot");
+  src: local("☺"), url("../fonts/MyriadPro-Regular.woff") format("woff"), url("../fonts/MyriadPro-Regular.ttf") format("truetype"), url("../fonts/MyriadPro-Regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
 
 * {
   margin: 0;
@@ -159,15 +177,16 @@ h6 {
 .banner__subTitle {
   color: #fff;
   letter-spacing: -1.03px;
-  margin-bottom: 28px;
+  margin-bottom: 0;
 }
 
 .banner__title {
   font-size: 170px;
   font-weight: 400;
   text-transform: uppercase;
+  font-family: 'Flow';
   color: #ffc000;
-  letter-spacing: -4.36px;
+  letter-spacing: 0;
   margin-bottom: 40px;
 }
 
