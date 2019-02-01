@@ -225,16 +225,16 @@ h6 {
 }
 
 .banner {
-  padding-top: 200px;
+  padding-top: 204px;
   background-color: #121212;
-  min-height: 779px;
+  min-height: 783px;
   position: relative;
 }
 
 .banner__subTitle {
   color: #fff;
-  letter-spacing: -1.03px;
-  margin-bottom: 0;
+  letter-spacing: -2.03px;
+  margin-bottom: -30px;
 }
 
 .banner__title {
@@ -243,8 +243,8 @@ h6 {
   text-transform: uppercase;
   font-family: 'Flow';
   color: #ffc000;
-  letter-spacing: 0;
-  margin-bottom: 40px;
+  letter-spacing: -2px;
+  margin-bottom: 33px;
 }
 
 .banner__text {
@@ -258,7 +258,7 @@ h6 {
 .banner-arrow {
   font-size: 0;
   position: absolute;
-  top: 314px;
+  top: 370px;
   width: 50px;
   height: 50px;
   border: 2px solid #ffffff;
@@ -275,11 +275,11 @@ h6 {
 }
 
 .banner-prev {
-  left: 100px;
+  left: 92px;
 }
 
 .banner-next {
-  right: 100px;
+  right: 93px;
 }
 
 .about {
