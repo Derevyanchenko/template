@@ -1,0 +1,35 @@
+// footer
+
+.footer {
+  padding: 27px 0;
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__copy {
+    color: #000;
+    line-height: 26px;
+    font-weight: 400;
+    b {
+        font-weight: 900;
+    }
+  }
+  &__social {
+    display: flex;
+    align-items: center;
+    &-item {
+      margin-left: 35px;
+      display: block;
+      color: #949393;
+      transition: all 0.2s;
+      i {
+        font-size: 18px;
+      }
+      &:hover {
+        transition: all 0.2s;
+        color: #000;
+      }
+    }
+  }
+}
