@@ -67,10 +67,21 @@
 		}
 		&-social {
 			display: flex;
-			font-size: 20px;
-			margin: 0 10px;
 			justify-content: center;
 			align-items: center;
+			a {
+				display: block;
+				margin: 0 10px;
+				transition: all 0.2s;
+				&:hover {
+					opacity: 0.6;
+					transition: all 0.2s;
+				}
+			}
+			i {
+				font-size: 20px;
+				color: $yellow;
+			}
 		}
 	}
 }
