@@ -376,19 +376,19 @@ h6 {
 }
 
 .services {
-  padding-top: 95px;
-  padding-bottom: 77px;
+  padding-top: 93px;
+  padding-bottom: 68px;
 }
 
 .services__title {
-  margin-bottom: 44px;
+  margin-bottom: 28px;
   text-align: center;
   color: #000;
 }
 
 .services__text {
   margin: auto;
-  margin-bottom: 82px;
+  margin-bottom: 75px;
   max-width: 505px;
   text-align: center;
 }
@@ -403,9 +403,9 @@ h6 {
 
 .services__block {
   -webkit-box-flex: 0;
-  -ms-flex: 0 0 33%;
-  flex: 0 0 33%;
-  max-width: 33%;
+  -ms-flex: 0 0 33.33%;
+  flex: 0 0 33.33%;
+  max-width: 33.33%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -426,10 +426,9 @@ h6 {
 
 .services__block-title {
   font-size: 24px;
-  line-height: 46px;
   color: #000;
   letter-spacing: -0.6px;
-  margin-bottom: 15px;
+  margin-bottom: 12px;
 }
 
 .services__block-text {
