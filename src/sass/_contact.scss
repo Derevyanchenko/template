@@ -1,0 +1,29 @@
+// contact
+
+.contact {
+  padding-top: 100px;
+  padding-bottom: 120px;
+  background-color: #020202;
+  &__title {
+    text-align: center;
+    color: #fff;
+    letter-spacing: 0;
+    margin-bottom: 30px;
+    span {
+      color: $yellow;
+    }
+  }
+  &__text {
+    text-align: center;
+  }
+  &__form {
+
+    &-input {
+
+    }
+    &-submit {
+
+    }
+  }
+
+}
