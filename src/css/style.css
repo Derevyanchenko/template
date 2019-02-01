@@ -12,7 +12,7 @@
 }
 
 @font-face {
-  font-family: 'MyriadPro-Regular';
+  font-family: "Myriad Pro";
   src: url("../fonts/MyriadPro-Regular.eot");
   src: local("☺"), url("../fonts/MyriadPro-Regular.woff") format("woff"), url("../fonts/MyriadPro-Regular.ttf") format("truetype"), url("../fonts/MyriadPro-Regular.svg") format("svg");
   font-weight: normal;
@@ -391,6 +391,8 @@ h6 {
   color: #000;
   text-align: center;
   margin-bottom: 45px;
+  font-family: "Myriad Pro";
+  font-weight: 400;
 }
 
 .meet__text {
@@ -399,6 +401,7 @@ h6 {
   font-size: 18px;
   line-height: 34px;
   margin-bottom: 70px;
+  font-family: "Myriad Pro";
 }
 
 .meet__wrapper {
@@ -427,4 +430,44 @@ h6 {
   border-top-right-radius: 8px;
   border-top-left-radius: 8px;
   background: #000;
+}
+
+.meet__block-content {
+  text-align: center;
+  padding: 0 35px 50px 35px;
+}
+
+.meet__block-name {
+  margin-top: 40px;
+  color: #000000;
+  font-size: 24px;
+  line-height: 46px;
+}
+
+.meet__block-position {
+  font-size: 12px;
+  letter-spacing: 2.4px;
+  color: #ffc000;
+}
+
+.meet__block-text {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  color: #aaaaaa;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.meet__block-social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 20px;
+  margin: 0 10px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }

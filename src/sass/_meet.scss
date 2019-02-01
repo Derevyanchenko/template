@@ -9,6 +9,8 @@
 		color: #000;
 		text-align: center;
 		margin-bottom: 45px;
+		font-family: "Myriad Pro";
+		font-weight: 400;
 	}
 	&__text {
 		text-align: center;
@@ -16,6 +18,7 @@
 		font-size: 18px;
 		line-height: 34px;
 		margin-bottom: 70px;
+		font-family: "Myriad Pro";
 	}
 	&__wrapper {
 		display: flex;
@@ -40,17 +43,34 @@
 
 			}
 		}
+		&-content {
+			text-align: center;
+			padding: 0 35px 50px 35px;
+		}
 		&-name {
-
+			margin-top: 40px;
+			color: #000000;
+			font-size: 24px;
+			line-height: 46px;
 		}
 		&-position {
-
+			font-size: 12px;
+			letter-spacing: 2.4px;
+			color: $yellow;
 		}
 		&-text {
-
+			margin-top: 25px;
+			margin-bottom: 25px;
+			color: #aaaaaa;
+			font-size: 14px;
+			line-height: 24px;
 		}
 		&-social {
-
+			display: flex;
+			font-size: 20px;
+			margin: 0 10px;
+			justify-content: center;
+			align-items: center;
 		}
 	}
 }
