@@ -283,7 +283,7 @@ h6 {
 }
 
 .about {
-  padding-top: 100px;
+  padding-top: 103px;
   padding-bottom: 120px;
   background: #fff url("../img/aboutUs-bg.png") no-repeat bottom;
   background-size: cover;
@@ -292,11 +292,11 @@ h6 {
 
 .about__title {
   color: #000;
-  margin-bottom: 45px;
+  margin-bottom: 27px;
 }
 
 .about__text {
-  margin-bottom: 69px;
+  margin-bottom: 65px;
   max-width: 960px;
   margin-left: auto;
   margin-right: auto;
