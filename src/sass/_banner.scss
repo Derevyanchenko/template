@@ -55,3 +55,29 @@
 		right: 93px;
 	}
 }
+
+// media queries
+
+
+@media (max-width: $xxl) {
+
+	.banner__content {
+		max-width: 970px;
+		margin: auto;
+	}
+	.banner-prev {
+		left: 35px;
+	}
+	.banner-next {
+		right: 35px;
+	}
+
+}
+
+@media (max-width: $xl) {
+
+	.banner__content {
+		max-width: 700px;
+	}
+
+}
