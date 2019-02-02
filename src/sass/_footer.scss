@@ -33,3 +33,41 @@
     }
   }
 }
+
+
+// media queries
+
+
+@media (max-width: $xl) {
+
+
+}
+
+@media (max-width: $lg) {
+
+  
+
+}
+
+@media (max-width: $md) {
+
+  
+
+}
+
+
+@media (max-width: $sm) {
+
+   .footer__wrapper {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .footer__social {
+    margin-top: 15px;
+  }
+  .footer__social-item {
+        margin: 0 15px;
+    }
+
+}
