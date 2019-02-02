@@ -1,18 +1,14 @@
 $(document).ready(function() {
 
+  // open mob menu
 
-  // animation
-
-  /*  $(".select-tree").click(function() {
-      var elementClick = $(this).attr("href")
-      var destination = $(elementClick).offset().top;
-      jQuery("html:not(:animated),body:not(:animated)").animate({
-        scrollTop: destination
-      }, 800);
-      return false;
+    $(".header__toggle").on("click", function(e) {
+        e.preventDefault();
+        $(".header-mob").slideToggle();
+        $(this).toggleClass("header__toggle--active");
     });
-*/
-    // arrow top animation end
+
+  // banner slider
 
   $('.banner__slider').slick({
       dots: false,
@@ -44,10 +40,9 @@ $(document).ready(function() {
             dots: true
           }
         }
-        // You can unslick at a given breakpoint now by adding:
-        // settings: "unslick"
-        // instead of a settings object
       ]
     }); 
+
+
 
 });

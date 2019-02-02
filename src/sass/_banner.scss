@@ -47,6 +47,11 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
+		transition: all 0.2s;
+		&:hover {
+			transition: all 0.2s;
+			opacity: 0.7;
+		}
 	}
 	&-prev {
 		left: 92px;
@@ -85,7 +90,8 @@
 @media (max-width: $lg) {
 
 	.banner {
-		padding-top: 150px;
+		/* padding-top: 150px; */
+		padding-top: 210px;
 		min-height: 700px;
 		position: relative;
 	}
@@ -136,7 +142,8 @@
 @media (max-width: $md) {
 
 	.banner {
-	    padding-top: 110px;
+	   /*  padding-top: 110px; */
+	    padding-top: 170px;
 	    min-height: 570px;
 	    padding-bottom: 110px;
 	}
@@ -163,7 +170,8 @@
 @media (max-width: $sm) {
 
 	.banner {
-		padding-top: 80px;
+		/* padding-top: 80px; */
+		padding-top: 140px;
 		min-height: 450px;
 		padding-bottom: 80px;
 	}
