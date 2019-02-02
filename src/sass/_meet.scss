@@ -129,13 +129,58 @@
 	.meet__wrapper {
 		max-width: 720px;
 	}
+	.meet__title {
+	    font-size: 50px;
+	}
 
 }
 
 @media (max-width: $md) {
 
-	
-
+	.meet {
+		padding-top: 55px;
+		padding-bottom: 55px;
+	}
+	.meet__title {
+	    font-size: 40px;
+	    margin-bottom: 10px;
+	}
+	.meet__text {
+		font-size: 14px;
+		line-height: 24px;
+		margin-bottom: 35px;
+	}
+	.meet__wrapper {
+		max-width: 100%;
+	}
+	.meet__block {
+		max-width: 370px;
+		margin-left: auto;
+		margin-right: auto;
+		&:nth-child(3n+3) {
+			margin-left: auto;
+			margin-right: auto;
+		}
+		&:nth-child(2n+2) {
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+	.meet__block-content {
+	    padding: 0 25px 30px 25px;
+	}
+	.meet__block-name {
+	    margin-top: 30px;
+	    font-size: 20px;
+	    line-height: 36px;
+	}
+	.meet__block-position {
+		margin-top: 5px;
+	}
+	.meet__block-text {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
 }
 
 
