@@ -575,6 +575,80 @@ h6 {
   line-height: 24px;
 }
 
+@media (max-width: 1200px) {
+  .blurbs {
+    padding-top: 100px;
+    padding-bottom: 75px;
+  }
+
+  .blurbs__block {
+    margin-bottom: 35px;
+    max-width: 50%;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+  }
+
+  .blurbs__wrapper {
+    max-width: 760px;
+    margin: auto;
+  }
+
+  .blurbs__block-img {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 991px) {
+  .blurbs {
+    padding-top: 80px;
+    padding-bottom: 55px;
+  }
+
+  .blurbs__block-title {
+    font-size: 26px;
+    line-height: 30px;
+    margin-bottom: 14px;
+  }
+}
+
+@media (max-width: 767px) {
+  .blurbs {
+    padding-top: 65px;
+    padding-bottom: 40px;
+  }
+
+  .blurbs__block {
+    max-width: 100%;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+  }
+
+  .blurbs__block-text {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .blurbs__block-title {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 570px) {
+  .blurbs {
+    padding-top: 50px;
+    padding-bottom: 25px;
+  }
+
+  .blurbs__block-title {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+
 .services {
   padding-top: 93px;
   padding-bottom: 68px;
