@@ -81,6 +81,10 @@ h6 {
   line-height: 34px;
 }
 
+.slick-slide {
+  outline: none;
+}
+
 .header {
   background: #000;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
@@ -359,7 +363,7 @@ h6 {
 
   .slick-dots {
     position: absolute;
-    bottom: -145px;
+    bottom: 50px;
     left: 50%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);

@@ -23,6 +23,7 @@ $(document).ready(function() {
       speed: 300,
       fade: true,
       cssEase: 'linear',
+      appendDots: $(".banner__dots"),
       prevArrow: $(".banner-prev"),
       nextArrow: $(".banner-next"),
       responsive: [
