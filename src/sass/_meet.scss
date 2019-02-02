@@ -186,6 +186,37 @@
 
 @media (max-width: $sm) {
 
-	
+	.meet {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	.meet__title {
+		font-size: 28px;
+	}
+	.meet__text {
+		font-size: 12px;
+		line-height: 22px;
+		br {
+			display: none;
+		}
+	}
+	.meet__block-name {
+	    margin-top: 25px;
+	    font-size: 16px;
+	    line-height: 28px;
+	}
+	.meet__block-position {
+	    margin-top: 8px;
+	}
+	.meet__block-text {
+	    margin-top: 13px;
+	    font-size: 12px;
+	    line-height: 20px;
+	    margin-bottom: 13px;
+	}
+	.meet__block-content {
+		padding: 0 20px;
+		padding-bottom: 25px;
+	}
 
 }
