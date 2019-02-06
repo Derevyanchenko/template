@@ -268,6 +268,7 @@ h6 {
     display: none;
     height: calc( 100vh - 62px);
     padding: 20px 0;
+    /* 	max-height: 480px; */
   }
 
   .header-mob .main__list {
@@ -275,17 +276,18 @@ h6 {
   }
 
   .header-mob .get-call {
-    display: none;
+    margin-top: 30px;
+    display: block;
   }
 
   .header-mob .main__item {
-    padding: 20px 10px;
+    padding: 15px 10px;
     margin-right: 0;
     width: 100%;
   }
 
   .header-mob .main__link {
-    font-size: 28px;
+    font-size: 24px;
     width: 100%;
     display: block;
   }
@@ -298,6 +300,13 @@ h6 {
 
   .header-top {
     padding: 17px 0;
+  }
+}
+
+@media (max-height: 420px) {
+  .header-mob {
+    max-height: 420px;
+    overflow-y: scroll;
   }
 }
 
@@ -422,6 +431,8 @@ h6 {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
 }
 
 .banner-arrow:hover {
